@@ -1,0 +1,68 @@
+.about-wrorkshop .title h3 {
+  color: #062E51;
+  font-weight: bold;
+}
+.about-wrorkshop .info-wrapper {
+  font-size: 15px;
+}
+
+.wrapper button {
+  font-weight: 400;
+  background-color: #3F7E44;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 6px 15px;
+  margin-bottom: 26px;
+}
+
+.rice-help {
+  margin-bottom: 50px;
+}
+.rice-help .object-img {
+  background-color: #062E51;
+  padding: 40px;
+}
+.rice-help .object-img img {
+  width: 100%;
+}
+.rice-help .wrapper {
+  background-color: #E9F2F8;
+  padding: 100px 50px;
+  height: 100%;
+}
+.rice-help .wrapper h2 {
+  color: #062E51;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.monitoring .cert {
+  text-align: center;
+  background-color: #062E51;
+  max-width: 500px;
+  margin: 0 auto;
+  border-radius: 8px;
+  padding: 36px 33px;
+}
+.monitoring .cert p {
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+}
+.monitoring .cert .sign {
+  color: white;
+  margin-bottom: 20px;
+  display: block;
+  font-size: 14px;
+}
+.monitoring .cert button {
+  background-color: white;
+  color: #062E51;
+  border: none;
+  border-radius: 5px;
+  padding: 6px 15px;
+  font-weight: 500;
+  font-size: 14px;
+  font-weight: 700;
+}/*# sourceMappingURL=emission.css.map */

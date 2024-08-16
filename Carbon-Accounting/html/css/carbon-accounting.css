@@ -1,0 +1,180 @@
+.brochure {
+  background: #F8F9FA;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.brochure .main-row .img-sec {
+  text-align: center;
+}
+.brochure .main-row .img-sec img {
+  width: 100%;
+}
+.brochure .main-row .download-brochure {
+  margin-left: 36px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (max-width: 430px) {
+  .brochure .main-row .download-brochure {
+    padding: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .brochure .main-row .download-brochure {
+    padding: 28px 28px;
+  }
+}
+.brochure .main-row .text-area h6 {
+  color: #062E51;
+  font-weight: bold;
+  margin-bottom: 17px;
+  font-size: 23px;
+}
+.brochure .main-row .text-area p {
+  color: #526B88;
+}
+.brochure .main-row .click-on {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px;
+}
+@media (max-width: 430px) {
+  .brochure .main-row .click-on {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}
+.brochure .main-row .click-on :nth-child(1) button {
+  background-color: #062E51;
+}
+.brochure .main-row .click-on :nth-child(2) button {
+  background-color: #3F7E44;
+}
+.brochure .main-row .click-on .button button {
+  padding: 5px 15px;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  color: #fff;
+  width: 100%;
+  font-size: 16px;
+}
+@media (max-width: 767px) {
+  .brochure .main-row .click-on .button button {
+    font-size: 14px;
+  }
+}
+@media (max-width: 400px) {
+  .brochure .main-row .click-on .button button {
+    font-size: 11px;
+  }
+}
+
+.about-course .tab-sec {
+  text-align: left;
+  background-color: #E9F2F8;
+  padding: 20px 0px;
+}
+.about-course .tab-sec ul {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+.about-course .tab-sec ul li {
+  display: inline;
+  margin: 50px;
+  font-weight: 400;
+}
+.about-course .main-box {
+  padding: 30px 10px;
+}
+.about-course .main-box .title-sec {
+  text-align: left;
+}
+.about-course .main-box .title-sec h3 {
+  font-size: 35px;
+  color: #062E51;
+}
+.about-course .main-box .info-sec .heading {
+  margin-bottom: 20px;
+}
+.about-course .main-box .info-sec .heading h2 {
+  font-size: 23px;
+  color: #062E51;
+}
+.about-course .main-box .info-sec .info-wrapper p {
+  font-size: 16px;
+  color: #062E51;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.banner-sec {
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 550px;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 1200px) {
+  .banner-sec {
+    margin-bottom: 20px;
+  }
+}
+.banner-sec .inner-banner {
+  background: linear-gradient(90deg, rgba(41, 42, 46, 0.3) 45.18%, rgba(255, 255, 255, 0.3) 137.92%);
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-sec .inner-banner .title-sec h1 {
+  font-size: 50px;
+}
+@media screen and (max-width: 430px) {
+  .banner-sec .inner-banner .title-sec h1 {
+    font-size: 30px;
+  }
+}
+
+.asked-questions {
+  margin-bottom: 50px;
+}
+.asked-questions .heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.asked-questions .heading h3 {
+  color: #062E51;
+}
+.asked-questions .accordion-wrapper .accordion-flush .accordion-item {
+  border: 1px solid #B2C2D3;
+  margin-bottom: 20px;
+  color: #062E51;
+}
+.asked-questions .accordion-wrapper .accordion-flush .accordion-item .accordion-header .accordion-button {
+  box-shadow: none;
+  text-shadow: none;
+  outline: none;
+  background: none;
+}
+.asked-questions .accordion-wrapper .accordion-flush .accordion-item .accordion-header .accordion-button ::after {
+  color: #062E51;
+}
+
+.overview-tab {
+  margin-bottom: 50px;
+}/*# sourceMappingURL=carbon-accounting.css.map */

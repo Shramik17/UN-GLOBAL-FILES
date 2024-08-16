@@ -1,0 +1,320 @@
+.what-sec {
+  background-color: #062E51;
+}
+.what-sec .main-box {
+  padding: 50px 30px;
+}
+@media (max-width: 768px) {
+  .what-sec .main-box {
+    padding: 30px 0px;
+  }
+}
+.what-sec .title {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  height: 100px;
+}
+@media (max-width: 768px) {
+  .what-sec .title {
+    justify-content: center;
+    margin: 0px;
+    padding: 20px 10px;
+    height: 100%;
+  }
+}
+.what-sec .title h3 {
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+}
+.what-sec .info {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .what-sec .info {
+    padding: 20px;
+  }
+}
+.what-sec .info h5 {
+  color: white;
+  font-size: 19px;
+  font-weight: 300;
+}
+.what-sec hr {
+  color: white;
+}
+
+.singapore-sec {
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 80px;
+}
+.singapore-sec .inner-sec {
+  background: linear-gradient(100.59deg, rgba(41, 42, 46, 0.7) 98.63%, rgba(255, 255, 255, 0.7) 124.47%);
+  padding: 50px 0px;
+}
+.singapore-sec .inner-sec .title-sec {
+  margin-bottom: 70px;
+}
+@media (max-width: 430px) {
+  .singapore-sec .inner-sec .title-sec {
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+}
+.singapore-sec .inner-sec .title-sec h1 {
+  font-size: 25px;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+@media (max-width: 768px) {
+  .singapore-sec .inner-sec .title-sec h1 {
+    font-size: 30px;
+  }
+}
+.singapore-sec .inner-sec .sec-row {
+  row-gap: 30px;
+}
+@media (max-width: 768px) {
+  .singapore-sec .inner-sec .sec-row {
+    row-gap: 10px;
+  }
+}
+.singapore-sec .inner-sec .sec-row .title {
+  text-align: left;
+}
+.singapore-sec .inner-sec .sec-row .title h2 {
+  color: white;
+  font-size: 22px;
+}
+.singapore-sec .inner-sec .sec-row .info p {
+  color: white;
+  font-size: 16px;
+}
+
+.partners-sec {
+  margin-bottom: 80px;
+}
+.partners-sec .heading-sec {
+  margin-bottom: 50px;
+}
+.partners-sec .heading-sec h1 {
+  text-align: center;
+  color: rgb(6, 46, 81);
+  font-size: 25px;
+  font-weight: 700;
+}
+.partners-sec .abcd-button-sec {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.partners-sec .abcd-button-sec span {
+  color: rgb(82, 107, 136);
+  padding: 5px 8px;
+  cursor: pointer;
+}
+.partners-sec .abcd-button-sec .active {
+  padding: 5px 8px;
+  background-color: #062E51;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.partners-sec .sponsored-sec {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.partners-sec .sponsored-sec img {
+  max-width: 100%;
+}
+.partners-sec .contact-us-sec {
+  text-align: center;
+}
+.partners-sec .contact-us-sec h1 {
+  color: rgb(6, 46, 81);
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+  .partners-sec .contact-us-sec h1 {
+    font-size: 30px;
+  }
+}
+.partners-sec .contact-us-sec a {
+  color: rgb(63, 126, 68);
+  font-size: 22px;
+}
+@media (max-width: 768px) {
+  .partners-sec .contact-us-sec a {
+    font-size: 20px;
+  }
+}
+.partners-sec .contact-us-sec .contact-button {
+  padding-top: 40px;
+}
+.partners-sec .contact-us-sec .contact-button span {
+  background-color: rgb(6, 46, 81);
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+.partners-sec .contact-us-sec .contact-button span a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+@media (max-width: 768px) {
+  .partners-sec .contact-us-sec .contact-button span a {
+    font-size: 14px;
+  }
+}
+
+.who-we-are {
+  margin-bottom: 30px;
+}
+.who-we-are .main-box {
+  padding: 0px 30px;
+}
+.who-we-are .main-box .title-sec {
+  height: 150px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .who-we-are .main-box .title-sec {
+    justify-content: center;
+    font-size: 25px;
+  }
+}
+.who-we-are .main-box .title-sec h3 {
+  color: #062E51;
+  font-size: 33px;
+}
+.who-we-are .main-box .info-sec {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.who-we-are .main-box .info-sec p {
+  color: #526B88;
+  font-size: 17px;
+}
+
+.resources {
+  margin-bottom: 50px;
+}
+.resources .main-sec .heading-sec {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.resources .main-sec .heading-sec h2 {
+  color: #062E51;
+  font-weight: 500;
+  margin: 50px 0px;
+  font-size: 47px;
+}
+@media (max-width: 500px) {
+  .resources .main-sec .heading-sec h2 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 768px) {
+  .resources .main-sec .main-row {
+    gap: 20px;
+  }
+}
+.resources .main-sec .main-row .gcns-ceo-wrapper {
+  border: 1px solid rgba(82, 107, 136, 0.4196078431);
+  border-radius: 17px;
+  box-shadow: 2px 3px 14px rgba(0, 0, 0, 0.4392156863);
+}
+.resources .main-sec .main-row .gcns-ceo-wrapper .image-sec img {
+  width: 100%;
+}
+.resources .main-sec .main-row .gcns-ceo-wrapper .gcns-ceo-info {
+  padding: 15px 15px;
+}
+.resources .main-sec .main-row .gcns-ceo-wrapper .gcns-ceo-info .button-sec {
+  margin-bottom: 10px;
+}
+.resources .main-sec .main-row .gcns-ceo-wrapper .gcns-ceo-info .button-sec ul {
+  padding: 0px;
+  margin: 0px;
+}
+.resources .main-sec .main-row .gcns-ceo-wrapper .gcns-ceo-info .button-sec ul li {
+  display: inline;
+  border-radius: 5px;
+  padding: 3px 5px;
+  font-size: 14px;
+  border: 1px solid rgba(82, 107, 136, 0.4196078431);
+  color: #526B88;
+}
+.resources .main-sec .main-row .gcns-ceo-wrapper .gcns-ceo-info .heading h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #062E51;
+  font-family: "FlamaSemiCondTrial-Basic";
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+.resources .main-sec .main-row .gcns-ceo-wrapper .gcns-ceo-info .info p {
+  color: #526B88;
+}
+.resources .main-sec .main-row .gcns-ceo-wrapper .gcns-ceo-info .read-more {
+  display: flex;
+  justify-content: space-between;
+}
+.resources .main-sec .main-row .gcns-ceo-wrapper .gcns-ceo-info .read-more a {
+  color: #062E51;
+  font-weight: 700;
+}
+.resources .main-sec .main-row .gcns-ceo-wrapper .gcns-ceo-info .read-more .social-links a {
+  text-decoration: none;
+}
+.resources .main-sec .main-row .gcns-ceo-wrapper .gcns-ceo-info .read-more .social-links a i {
+  text-align: center;
+  font-size: 13px;
+  padding: 8px 11px;
+  border-radius: 50px;
+  color: #fff;
+  margin: 1px;
+  background-color: #2e4d6b;
+}
+
+.banner-sec {
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 600px;
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 1200px) {
+  .banner-sec {
+    margin-bottom: 20px;
+  }
+}
+.banner-sec .inner-sec {
+  background: linear-gradient(90deg, rgba(41, 42, 46, 0.2) 45.18%, rgba(255, 255, 255, 0.2) 137.92%);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner-sec .title-sec h1 {
+  font-size: 50px;
+}
+@media screen and (max-width: 430px) {
+  .banner-sec .title-sec h1 {
+    font-size: 30px;
+  }
+}/*# sourceMappingURL=cplc-singapore.css.map */

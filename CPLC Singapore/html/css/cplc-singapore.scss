@@ -1,0 +1,318 @@
+.what-sec{
+    background-color: #062E51;
+    .main-box{
+        padding: 50px 30px;
+        @media (max-width: 768px) {
+            padding: 30px 0px;
+        }
+    }
+    .title{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        height: 100px;
+        @media (max-width: 768px) {
+            justify-content: center;
+            margin: 0px;
+            padding: 20px 10px;
+            height: 100%;
+            
+        }
+        h3{
+            color: white;
+            font-size: 25px;
+            font-weight: 600;
+        }
+    }
+    .info{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        @media (max-width: 768px) {
+           padding: 20px;
+        }
+        h5{
+            color:  white;
+            font-size: 19px;
+            font-weight: 300;
+        }
+    }
+    .line-sec{
+        
+    }
+    hr{
+        color: white;
+    }
+}
+.singapore-sec{
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 80px;
+   .inner-sec{
+        background: linear-gradient(100.59deg, rgba(41, 42, 46, 0.7) 98.63%, rgba(255, 255, 255, 0.7) 124.47%);
+        padding: 50px 0px;
+        .title-sec{
+            margin-bottom: 70px;
+            @media (max-width: 430px) {
+                font-size: 30px;
+                margin-bottom: 50px;
+            }
+            h1{
+                font-size: 25px;
+                font-weight: 700;
+                font-size: 40px;
+                text-align: center;
+                color: white;
+                @media (max-width: 768px) {
+                    font-size: 30px;
+                }
+            }
+        }
+        .sec-row{
+            row-gap: 30px;
+            @media(max-width:768px){
+                row-gap: 10px;
+            }
+            
+            .title{
+                text-align: left;
+                
+                h2{
+                    color: white;
+                    font-size: 22px;
+                    // padding: 20px 0px 20px 0px;
+                }
+            }
+            .info{
+                p{
+                    color: white;
+                    font-size: 16px;    
+                    // padding: 20px 0px 10px 0px;
+                }
+            }
+        }
+    } 
+}
+.partners-sec{
+    margin-bottom: 80px;
+    .heading-sec{
+        margin-bottom: 50px;
+        h1{
+            text-align: center;
+            color: rgba(6, 46, 81, 1);
+            font-size: 25px;
+            font-weight: 700;
+        }
+    }
+    .abcd-button-sec{
+        text-align: center;
+        margin-bottom: 50px;
+        span{
+            color: rgba(82, 107, 136, 1);
+            padding: 5px 8px;
+            cursor: pointer;
+        }
+        .active{
+            padding: 5px 8px;
+            background-color: #062E51;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    }
+    .sponsored-sec{
+        text-align: center;
+        // padding: 15px;
+        margin-bottom: 50px;
+        img{
+            max-width: 100%;
+        }
+    }
+    .contact-us-sec{
+        text-align: center;
+        h1{
+            color: rgba(6, 46, 81, 1);
+            font-size: 35px;
+            margin-bottom: 20px;
+            @media (max-width : 768px){
+                font-size: 30px;
+            }
+        }
+        a{
+            color: rgba(63, 126, 68, 1);
+            font-size: 22px;
+            @media (max-width : 768px){
+                font-size: 20px;
+            }
+        }
+        .contact-button{
+            padding-top: 40px;
+            span{
+                background-color: rgba(6, 46, 81, 1);
+                padding: 10px 15px;
+                border-radius: 8px;
+                a{
+                    color: white;
+                    text-decoration: none;
+                    font-size: 16px;
+                    @media (max-width : 768px){
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+
+    }
+    
+}
+.who-we-are{
+    margin-bottom: 30px;
+    .main-box{
+        padding: 0px 30px;
+        .title-sec{
+            height: 150px;
+            text-align: left;
+            display: flex;
+            align-items: center;
+            @media (max-width: 768px) {
+                justify-content: center;
+                font-size: 25px;
+            }
+            h3{
+                color: #062E51;
+                font-size: 33px;
+            }
+        }
+        .info-sec{
+            display: flex;
+            align-items: center;
+            height: 100%;
+            p{
+                color: #526B88;
+                font-size: 17px;
+            }
+        }
+    }
+    
+}
+.resources{
+    margin-bottom: 50px;
+    .main-sec{
+        .heading-sec{
+            text-align: center;
+            margin-bottom: 40px;
+            h2{
+                color: #062E51;
+                font-weight: 500;
+                margin: 50px 0px;
+                font-size: 47px;
+                @media (max-width:500px){
+                    font-size: 35px;
+                }
+            }
+        }
+        .main-row{
+            @media (max-width: 768px) {
+                gap: 20px;
+            }
+            .gcns-ceo-wrapper{
+                border: 1px solid #526b886b;
+                border-radius: 17px;
+                box-shadow: 2px 3px 14px #00000070;
+                .image-sec{
+                    img{
+                        width: 100%;
+                    }
+                }
+                .gcns-ceo-info{
+                    padding: 15px 15px;
+                    .button-sec{
+                        margin-bottom: 10px;
+                        ul{
+                            padding: 0px;
+                            margin: 0px;
+                            li{
+                                display: inline;
+                                border-radius: 5px;
+                                padding: 3px 5px;
+                                font-size: 14px;
+                                border: 1px solid #526b886b;
+                                color: #526B88;
+                            }
+                        }
+                    }
+                    .heading{
+                        h3{
+                            font-size: 22px;
+                            font-weight: 700;
+                            color: #062E51;
+                            font-family: "FlamaSemiCondTrial-Basic";
+                            font-weight: 600;
+                            line-height: 30px;
+                            letter-spacing: 1px;
+                        }
+                    }
+                    .info{
+                        p{
+                            color: #526B88;            
+                        }
+                    }
+                    .read-more{
+                        display: flex;
+                        justify-content: space-between;
+                        a{
+                            color: #062E51;
+                            font-weight: 700;
+                        }
+                        .social-links{
+                            a{
+                                text-decoration: none;
+                                i{
+                                    text-align: center;
+                                    font-size: 13px;
+                                    padding: 8px 11px;
+                                    border-radius: 50px;
+                                    color: #fff;
+                                    margin: 1px;
+                                    background-color: #2e4d6b;
+                                }
+                            }
+                            
+                        }
+                    }
+                }
+            };
+        }
+        
+    }
+}
+.banner-sec{
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 600px;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 50px;
+    @media screen and (max-width: 1200px) {
+        margin-bottom: 20px;
+        
+    }
+    .inner-sec{
+        background: linear-gradient(90deg, rgba(41, 42, 46, 0.2) 45.18%, rgba(255, 255, 255, 0.2) 137.92%);
+        width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .title-sec{
+        h1{
+            font-size: 50px;
+            @media screen and (max-width: 430px) {
+                font-size: 30px;
+            }
+        }
+    }
+}

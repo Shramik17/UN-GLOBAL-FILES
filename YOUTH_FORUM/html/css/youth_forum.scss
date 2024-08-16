@@ -1,0 +1,227 @@
+.banner-sec{
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 600px;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 70px;
+    @media screen and (max-width: 1200px) {
+        margin-bottom: 20px;
+    }
+    .inner-sec{
+        background: linear-gradient(90deg, rgba(41, 42, 46, 0.3) 45.18%, rgba(255, 255, 255, 0.3) 137.92%);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        .title-sec{
+            text-align: center;
+            h1{
+                font-size: 65px;
+                color: #fff;
+                @media screen and (max-width: 430px) {
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}
+.forum-content{
+    text-align: center;
+    margin-bottom: 70px;
+    .heading{
+        margin-bottom: 30px;
+        h1{
+            font-size: 45px;
+            color: #062E51;
+        }
+    }
+    .content{
+        max-width: 70%;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        p{
+            font-size: 18px;
+            color: #284865;
+        }
+    }
+    .button-sec{
+        a{
+            background-color: #062E51;
+            color: white;
+            font-size: 18px;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    }
+}
+.culture-sec{
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: 70px;
+    // @media(max-width:1000px){
+    //     padding: 50px;
+    // }
+    @media (max-width: 768px) {
+        padding: 10px;
+    }
+    .culture-heading{
+        margin-bottom: 30px;
+        h1{
+            color: #062E51;
+            margin-bottom: 20px;
+            font-size: 45px;
+        }
+        p{
+            color: #526B88;
+            font-size: 18px;
+        }
+    }
+    .img-box{
+        text-align: center;
+        img{
+            width: 100%;
+        }
+    }
+}
+.banner-image{
+    background-image: url(images/un.global.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 70px;
+    img{
+        position: absolute;
+        width: 100%;
+    }
+    .overlay{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(100.59deg, rgba(41, 42, 46, 0.8) 98.63%, rgba(255, 255, 255, 0.8) 124.47%);
+        .title-sec{
+            display: flex;
+            height: 100%;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center; 
+            text-align: center;   
+            h2{
+                color: #ffffff;
+                font-size: 45px;
+                margin-bottom: 20px;
+            }
+            p{
+                text-align: center;
+                color: #ffffff;
+                margin-bottom: 20px;
+            }
+            a{
+                text-decoration: none;
+                background-color: #ffffff;
+                border-radius: -40px;
+                color: #000;
+                border: none;
+                padding: 2px,12px,2px,12px;
+                padding: 10px;
+                border-radius: 5px;
+            }
+        } 
+    } 
+}  
+.interest-sec{
+    margin-bottom: 100px;
+    .title-sec{
+        margin-bottom: 30px;
+        text-align: center;
+        color: #062E51;
+        h1{
+            padding: 18px;
+            text-align: center;
+            color: #062e51;
+            // font-weight: 700;
+            font-size: 45px;
+        }
+    }
+    .main-box{
+        .wrapper{
+            row-gap: 20px;
+            .color{
+                &:nth-child(1){
+                    .read-more-sec{
+                        .date-sec{
+                            &> span{
+                                background-color: #6e417a;
+                            } 
+                        }
+                    }
+                }
+                &:nth-child(2){
+                    .read-more-sec{
+                        .date-sec{
+                            &> span{
+                                background-color: #ccb146;
+                            }
+                        }
+                    }
+                }
+                &:nth-child(3){
+                    .read-more-sec{
+                        .date-sec{
+                            &> span{
+                                background-color: #3f7e44;
+                            }
+                        }
+                    }
+                }
+            }
+            .read-more-sec{
+                .img-sec{
+                    border: 1px solid #80808059;
+                    border-radius: 10px;
+                    img{
+                        width: 100%;
+                       
+                    }
+                }
+                .info-wrapper{
+                    padding: 20px;
+                    border-bottom-left-radius: 7px;
+                    border-style: solid;
+                    border-width: 1px;
+                    border-color: #80808059;
+                    border-bottom-right-radius: 7px;
+                    border-top: none;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    span{
+                        color: #fff;
+                        padding: 5px 15px;
+                        border-radius: 25px;
+                        font-weight: 500;
+                    }
+                }
+                h2{
+                    padding: 15px 0px;
+                    font-weight: bold;
+                    color: #062e51;
+                    font-size: 20px;
+                }
+                a{
+                    font-size: 18px;
+                    font-weight: 400;
+                    color: #062e51;
+                }
+            }
+        }
+    }
+}

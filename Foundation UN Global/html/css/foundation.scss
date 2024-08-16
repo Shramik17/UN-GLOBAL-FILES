@@ -1,0 +1,141 @@
+.banner-sec{
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 520px;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #fff;
+    background-size: cover;
+    margin-bottom: 50px;
+    background-position: center;
+    .title-sec{
+        width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00000073;
+        h1{
+            font-size: 50px;
+            // @media screen and (max-width: 430px) {
+            //     font-size: 15px;
+            // }
+        }
+    }
+}
+.corporate-sec{
+    margin-bottom: 50px;
+    .info-wrapper{
+        text-align: center;
+        padding: 20px 80px;
+        @media screen and (max-width: 768px) {
+            padding: 20px 30px;
+        }
+        h3{
+            color: #062E51;
+            margin-bottom: 20px;
+            font-size: 36px;
+        }
+        p{
+            color: #526B88;
+            span{
+                color: #062E51;
+                font-weight: 800;
+            }
+        }
+    }
+}
+.tab{
+    background-color: #062E51;
+    padding: 80px;
+    color: white;
+    .main-title{
+        text-align: center;
+        margin-bottom: 40px;
+        ul{
+            margin: 0px;
+            padding: 0px;
+            .heading{
+                display: inline;
+                margin: 30px;
+                a{
+                    text-decoration: none;
+                    color: #fff;
+                    font-size: 25px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+    .module-wrapper{
+        margin-top: 20px;
+        ul{
+            margin: 0px;
+            padding: 0px;
+            :nth-child(2){
+                background-color: #062E51;
+                border: 1px solid #7FA3C7;
+                a{
+                    color: #fff;
+                }
+            }
+            :nth-child(3){
+                background-color: #062E51;
+                border: 1px solid #7FA3C7;
+                a{
+                    color: #fff;
+                }
+            }
+            li{
+                list-style-type: none;
+                padding: 8px 5px;
+                background-color: #062E51;
+                border-radius: 5px;
+                text-align: center;
+                margin-bottom: 20px;
+                width: 80%;
+                a{
+                    text-decoration: none;
+                    color: white;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    .image-wrapper{
+        img{
+            width: 100%;
+        }
+    }
+    .info-wrapper{
+        background-color: #062E51;
+        h3{
+            color: #fff;
+            font-size: 25px;
+            margin-bottom: 20px;
+            margin-top: 10px;
+        }
+        p{
+            color: #fff;
+            font-size: 16px;
+            font-weight: 400;
+            text-align: left;
+        }
+    }
+    .content{
+        .more-info{
+            h3{
+
+            }
+            P{
+
+            }
+            .button-sec{
+                
+            }
+        }
+    }
+}

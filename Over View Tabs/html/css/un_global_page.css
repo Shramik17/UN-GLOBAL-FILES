@@ -1,0 +1,316 @@
+.module-sec {
+  background-color: #062E51;
+  margin-bottom: 50px;
+}
+.module-sec .text-wrapper {
+  border: 1px solid #47647E;
+  border-radius: 10px;
+  height: 100%;
+  padding: 20px 30px;
+}
+@media (max-widhth: 1200px) {
+  .module-sec .text-wrapper {
+    padding: 20px 10px;
+  }
+}
+.module-sec .text-wrapper .module-btn {
+  margin-bottom: 20px;
+}
+.module-sec .text-wrapper .module-btn span {
+  background-color: #3f7e44;
+  color: #fff;
+  border-radius: 20px;
+  padding: 5px 18px;
+  font-size: 20px;
+}
+.module-sec .text-wrapper .primary-info {
+  margin-bottom: 25px;
+}
+.module-sec .text-wrapper .primary-info h2 {
+  color: white;
+  font-size: 23px;
+}
+.module-sec .text-wrapper .primary-info p {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+}
+.module-sec .text-wrapper .maintopics-info h3 {
+  color: white;
+  font-size: 20px;
+}
+.module-sec .text-wrapper .maintopics-info p {
+  color: #EEEEEE;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 3 auto;
+}
+
+.course-dates {
+  background-color: #062E51;
+  padding: 30px;
+  margin-bottom: 50px;
+}
+.course-dates table {
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid #062E51;
+}
+.course-dates table .course-details {
+  font-weight: 600;
+  background-color: rgba(45, 92, 133, 0.6509803922);
+}
+.course-dates table tr td {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 8px;
+  color: #EEEEEE;
+}
+.course-dates table tr td a {
+  color: white;
+}
+
+.apply-sec {
+  background-color: #062E51;
+  margin-bottom: 50px;
+  height: 100%;
+}
+.apply-sec .main-row {
+  row-gap: 50px;
+}
+.apply-sec .main-row .info-wrapper h2 {
+  color: white;
+  font-size: 20px;
+}
+.apply-sec .main-row .info-wrapper ul {
+  padding: 1px;
+}
+.apply-sec .main-row .info-wrapper ul li {
+  color: white;
+}
+.apply-sec .main-row .img-sec img {
+  width: 100%;
+}
+.apply-sec .main-row hr {
+  color: white;
+}
+.apply-sec .heading h2 {
+  color: white;
+  font-size: 28px;
+}
+.apply-sec .skillfuture-info {
+  margin-bottom: 50px;
+}
+.apply-sec .skillfuture-info h1 {
+  font-size: 25px;
+  color: #fff;
+}
+.apply-sec .skillfuture-info ul {
+  margin: 0 auto;
+  padding: 1px;
+}
+.apply-sec .skillfuture-info ul .acra {
+  margin: 0px 20px;
+}
+.apply-sec .skillfuture-info ul .acra .extra {
+  margin: 5px 10px;
+  list-style-type: disc;
+}
+.apply-sec .skillfuture-info ul .acra .extra a {
+  color: #fff;
+  padding: 0px 5px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.apply-sec .skillfuture-info ul li {
+  color: white;
+  list-style-type: none;
+  font-size: 18px;
+  margin: 10px 0px;
+}
+.apply-sec .skillfuture-info ul li a {
+  color: white;
+}
+.apply-sec .skillfuture-info h2 {
+  color: white;
+  font-size: 18px;
+}
+.apply-sec .skillfuture-info p {
+  color: white;
+}
+.apply-sec .skillfuture-info p a {
+  color: white;
+}
+.apply-sec .skillfuture-info a {
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.apply-sec .extra-info .heading {
+  margin-bottom: 20px;
+}
+.apply-sec .extra-info .heading h2 {
+  color: #fff;
+  font-size: 25px;
+}
+.apply-sec .extra-info .info {
+  margin-bottom: 30px;
+}
+.apply-sec .extra-info .info p {
+  color: #fff;
+  font-size: 18px;
+  margin: 0 auto;
+}
+.apply-sec .extra-info .info p a {
+  color: #fff;
+}
+.apply-sec .extra-info .buttons a {
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.apply-sec .extra-info .buttons :nth-child(1) {
+  background-color: #fff;
+  color: #062E51;
+}
+.apply-sec .extra-info .buttons :nth-child(2) {
+  background-color: #3F7E44;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.about-sec {
+  background-color: #062E51;
+  margin-bottom: 50px;
+}
+.about-sec .title h1 {
+  color: white;
+  font-size: 35px;
+  font-weight: 700;
+}
+.about-sec .info h2 {
+  color: white;
+  font-size: 20px;
+}
+.about-sec .info p {
+  color: #EEEEEE;
+  font-size: 18px;
+}
+
+.attend {
+  background-color: #062E51;
+  margin-bottom: 50px;
+}
+.attend .heading-sec {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.attend .heading-sec h3 {
+  font-size: 35px;
+  color: #fff;
+}
+.attend .main-row .sec-wrapper {
+  margin-bottom: 50px;
+}
+.attend .main-row .sec-wrapper .img-sec {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.attend .main-row .sec-wrapper .img-sec img {
+  width: 30%;
+}
+.attend .main-row .sec-wrapper .info {
+  text-align: center;
+}
+.attend .main-row .sec-wrapper .info h3 {
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+.attend .main-row .sec-wrapper .info p {
+  color: #fff;
+  margin: 0 auto;
+  font-size: 16px;
+}
+.attend .main-row .extra-info {
+  text-align: center;
+}
+.attend .main-row .extra-info p {
+  color: #fff;
+  list-style: disc inside none;
+  display: list-item;
+  font-size: 18px;
+}
+.attend .main-row .line hr {
+  color: #fff;
+  width: 100%;
+}
+.attend .main-row .heading {
+  text-align: center;
+}
+.attend .main-row .heading h3 {
+  color: #fff;
+  font-size: 35px;
+}
+.attend .main-row .info-wrapper {
+  padding: 20px 30px;
+  border: 1px solid #47647E;
+  border-radius: 5px;
+  height: 100%;
+  padding-right: 50px;
+}
+.attend .main-row .info-wrapper .heading {
+  text-align: left;
+  margin-bottom: 10px;
+}
+.attend .main-row .info-wrapper .heading h3 {
+  color: #fff;
+  font-size: 25px;
+}
+.attend .main-row .info-wrapper .info p {
+  color: #fff;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+.course-overview {
+  background-color: #062E51;
+}
+.course-overview .big-row .heading-sec h3 {
+  color: #fff;
+  font-size: 25px;
+}
+.course-overview .big-row .wrapper {
+  height: 100%;
+}
+.course-overview .big-row .wrapper h4 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.course-overview .big-row .wrapper h4 a {
+  text-decoration: underline;
+  color: white;
+}
+.course-overview .big-row .wrapper p {
+  color: #fff;
+  font-size: 18px;
+  margin: 10px auto;
+}
+.course-overview .big-row .line {
+  color: #fff;
+  margin: 40px 0px;
+}
+.course-overview .big-row .extra {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.course-overview .big-row .extra .extra-wrapper {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}/*# sourceMappingURL=un_global_page.css.map */
